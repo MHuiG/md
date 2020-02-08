@@ -1,0 +1,84 @@
+body{
+  padding:0;
+  margin:0;
+}
+.md-left, .md-right{
+    width:50%;
+    height:100%;
+} 
+.md-right{
+    width:50%;
+    margin-left:50%;
+}
+.md-preview{
+    height:100%; 
+    width:100%;
+    border:none;
+}
+.md-toolbar, .md-donate-detail{
+    position:absolute;
+    top:0;
+    right:5px;
+    background:rgba(0,0,0,0.8);
+    color:#FFF;
+    padding:5px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.md-toolbar td{
+    text-align:right;
+    padding:2px 0;
+}
+.md-toolbar td a{
+    color:#FFF;
+    font-size:0.8em;
+}
+.md-toolbar td + td{
+    text-align:left;
+}
+.md-topbar{
+    position:absolute;
+    margin:0px;
+    top:0;
+    right:5px;
+    height:32px;
+    padding:5px;
+}
+.md-topbar li{
+  width:32px;
+  height:32px;
+  display:inline-block;
+  *zoom:1;
+  *display:inline;
+}
+.md-config{
+    background:url('./settings.png') no-repeat;
+}
+.md-donate{
+    background:url('./donate.png') no-repeat;
+}
+.md-session{
+    background:url('./session.png') no-repeat;
+}
+.md-donate-detail td{
+    text-align:right;
+}
+.md-spliter{
+   width:3px; 
+   position:absolute;
+   left:50%;
+   height:100%;
+   z-index:10000;
+   border:2px dashed #CCC;
+   cursor:ew-resize;
+}
+.md-docanme{
+   position:absolute;
+   padding:5px;
+   left:50%;
+   background:rgba(0,0,0,0.8);
+   color:#fff;
+   border-bottom-right-radius:5px;
+   border-bottom-left-radius:5px;
+   z-index:99999;
+}
