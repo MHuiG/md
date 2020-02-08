@@ -4662,7 +4662,7 @@ $(function() {
     m = 0,
     p = d("curEditorTheme", "monokai"),
     q = d("curSyncRoll", 0),
-    F = d("curPreviewTheme", "Clearness");
+    F = d("curPreviewTheme", "GitHub");
     $("#md-keyboard").prop("checked", parseInt(d("keyboardBinding", 0)));
     x(parseInt(d("keyboardBinding", 0)));
     $("#md-linenum").prop("checked", null !== d("lineNum") ? parseInt(d("lineNum")) : 1);
